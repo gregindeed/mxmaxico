@@ -5,78 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mexico Maxico Catering</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
-<body class="bg-white text-gray-800 font-sans">
-  <header class="bg-[#ffefd5] shadow-sm sticky top-0 z-50 border-b-4 border-green-600">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold tracking-tight text-red-600">Loncherita Mexico Maxico</h1>
-      <nav class="space-x-6 text-sm">
-        <a href="#menu" class="text-yellow-600 hover:underline">Menu</a>
-        <a href="https://wa.me/18056075388" target="_blank" class="text-green-600 hover:underline font-medium">WhatsApp</a>
-      </nav>
-    </div>
-  </header>
+<body class="bg-gray-100 text-[#3d2c00]">
+  <header class="bg-transparent text-yellow-400 fixed top-0 left-0 right-0 z-50 ">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center  ">
+    <nav class="space-x-6 text-yellow-400 font-semibold text-sm ">
+      <a href="#menu" class="hover:underline">Menu</a>
+      <a href="#booking" class="hover:underline">Booking</a>
+      <a href="#brands" class="hover:underline">Brands</a>
+    </nav>
+    <a href="https://wa.me/18056075388" target="_blank" class="flex items-center gap-2 bg-yellow-400 text-[#0e1a2b] font-bold px-4 py-2 rounded-full hover:bg-yellow-300 transition">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-6 h-6">
+  Order on WhatsApp
+</a>
+  </div>
+</header>
+<section class="bg-[url('./imgs/pattern1.png')] bg-[length:800px] bg-repeat bg-center text-center py-24 backdrop-blur-sm">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-6xl font-black text-white drop-shadow-md mb-4 font-sans">Loncherita Mexico Maxico</h2>
+    <p class="text-yellow-200 text-xl font-light italic">Sazón de México hecho con amor</p>
+  </div>
+  </div>
+</section>
 
-  <!-- Menu -->
-  <section id="menu" class="bg-[#fff8ec] py-20">
-    <div class="max-w-5xl mx-auto px-4 border-8 rounded-2xl border-[url('https://cdn.pixabay.com/photo/2017/06/01/18/47/mexico-2366645_1280.jpg')] border-[length:32px] bg-white shadow-xl">
-      <div class="bg-white bg-opacity-90 p-6 rounded-xl">
-        <h3 class="text-4xl font-extrabold text-center text-[#e63946] mb-4">Loncherita México Maxico</h3>
-        <p class="text-center text-gray-600 mb-2 italic">(El menú puede cambiar día con día)</p>
-        <p class="text-center text-green-600 font-semibold mb-8">
-          <a href="https://wa.me/18056075388" target="_blank" class="hover:underline">
-            📱 WhatsApp: (805) 607-5388
-          </a>
-        </p>
+  <main class="py-20 ">
+    <section class="max-w-6xl mx-auto px-6">
+      <h2 class="text-5xl font-black text-center text-yellow-500 tracking-widest mb-10">MENU</h2>
 
-        <div class="grid md:grid-cols-2 gap-10">
-          <div class="text-left">
-            <img src="https://www.maricruzavalos.com/wp-content/uploads/2023/08/carne-asada-torta-recipe.jpg" alt="Torta" class="rounded-lg shadow mb-4 w-full h-48 object-cover">
-            <h4 class="text-2xl font-bold text-[#d62828] mb-2">Tortas</h4>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
-              <li>Torta de milanesa de pollo</li>
-              <li>Torta de huevo con chorizo</li>
-              <li>Torta de chorizo con queso</li>
-              <li>Torta de carne asada</li>
-            </ul>
-          </div>
+      <div class="grid md:grid-cols-2 gap-16">
+        <div>
+          <h3 class="text-2xl font-bold border-b border-gray-300 pb-2 mb-4">Sandwiches</h3>
+          <ul class="space-y-2">
+            <li class="flex justify-between border-b border-gray-700 pb-1">16" Sub Platter <span>$36.00</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">18" Sub Platter <span>$44.00</span></li>
+          </ul>
 
-          <div class="text-left">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcookpad.com%2Fmx%2Fbuscar%2Fburritos%2520de%2520carne%2520de%2520res&psig=AOvVaw1HzuNAiLKbXn4Pe24L2Emu&ust=1746237743694000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCqyN_Yg40DFQAAAAAdAAAAABAn" alt="Combo Burrito" class="rounded-lg shadow mb-4 w-full h-48 object-cover">
-            <h4 class="text-2xl font-bold text-[#d62828] mb-2">Combo Burrito</h4>
-            <p class="text-gray-700">Llévate nuestro combo burrito $10</p>
-          </div>
-
-          <div class="text-left">
-            <img src="https://images.unsplash.com/photo-1601925197923-0a3e6f9d0cae?q=80&w=600&auto=format&fit=crop" alt="Platos Especiales" class="rounded-lg shadow mb-4 w-full h-48 object-cover">
-            <h4 class="text-2xl font-bold text-[#d62828] mb-2">Platos Especiales</h4>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
-              <li>Pollo con queso</li>
-              <li>Papa con chorizo</li>
-              <li>Chimichanga a la mexicana</li>
-              <li>Quesabirria a la mexicana</li>
-            </ul>
-          </div>
-
-          <div class="text-left">
-            <img src="https://images.unsplash.com/photo-1625246333190-0f8a0433be2e?q=80&w=600&auto=format&fit=crop" alt="Especial del Día" class="rounded-lg shadow mb-4 w-full h-48 object-cover">
-            <h4 class="text-2xl font-bold text-[#d62828] mb-2">Especial del Día</h4>
-            <ul class="list-disc list-inside text-gray-700 space-y-1">
-              <li>Ensalada de pollo con bebida $10</li>
-              <li>Sandwich $10</li>
-            </ul>
-          </div>
+          <img src="https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-superJumbo.jpg" alt="Hot Entrees" class="rounded-lg shadow-md my-10">
+<h3 class="text-2xl font-bold border-b-2 border-yellow-500 pb-2 mt-10 mb-4">Hot Entrees</h3>
+          <ul class="space-y-2">
+            <li class="flex justify-between border-b border-gray-700 pb-1">4 Strombolis <span>$72.00</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">4 Large Pizzas & Wings <span>$110.00</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Spaghetti & Meatballs <span>$80–$110.00</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Ravioli Package <span>$70–$125.00</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Chicken Parm Package <span>$110.00</span></li>
+          </ul>
         </div>
 
-        <div class="mt-10 text-center">
-          <p class="text-sm text-gray-500 italic">¡Pregúntanos por el lonche de hoy! 🤤</p>
+        <div>
+          <div class="grid md:grid-cols-2 gap-6 items-center mb-4">
+  <img src="https://live.staticflickr.com/65535/53288089495_a00b4aa20e_c.jpg" alt="Salads" class="rounded-lg shadow-md">
+  <div>
+    <h3 class="text-2xl font-bold border-b-2 border-yellow-500 pb-2">Salads & Sides</h3>
+  </div>
+</div>
+          <ul class="space-y-2">
+            <li class="flex justify-between border-b border-gray-700 pb-1">Big House Salad <span>$2.50</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Greek Salad <span>$2.50</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Caesar Salad <span>$2.50</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Spinach & Feta <span>$2.50</span></li>
+          </ul>
+
+          <img src="https://as2.ftcdn.net/jpg/03/50/94/93/1000_F_350949316_Jrwdanj01oZdst9lEnZmblWj8lZ1ev9o.jpg" alt="Beverages" class="rounded-lg shadow-md my-10">
+<h3 class="text-2xl font-bold border-b-2 border-yellow-500 pb-2 mt-10 mb-4">Beverages</h3>
+          <ul class="space-y-2">
+            <li class="flex justify-between border-b border-gray-700 pb-1">2L Sodas <span>$3.00</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Individual Sodas <span>$1.75</span></li>
+            <li class="flex justify-between border-b border-gray-700 pb-1">Bottled Water <span>$1.75</span></li>
+          </ul>
+
+          <h3 class="text-2xl font-bold border-b-2 border-yellow-500 pb-2 mt-10 mb-4">Desserts</h3>
+          <p class="flex justify-between">Cookies for Party <span>$6.00</span></p>
+          <p class="text-sm text-yellow-200">A dozen cookies of your choice</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="bg-[#ffefd5] text-center py-6 text-sm text-gray-600 border-t-4 border-red-500">
-    &copy; 2025 Mexico Maxico Catering. Made with ❤️ in California.
-  </footer>
+    <section class="py-16">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold text-yellow-500 mb-8">We Proudly Serve</h2>
+    <div class="flex flex-wrap justify-center items-center gap-10">
+      <img src="https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png" alt="Coca-Cola" class="h-20">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fanta_logo_%282009%29.svg/1267px-Fanta_logo_%282009%29.svg.png" alt="Fanta" class="h-20">
+      <img src="https://1000logos.net/wp-content/uploads/2020/09/Sprite-Logo-2019.png" alt="Sprite" class="h-20">
+      <img src="https://1000logos.net/wp-content/uploads/2020/06/Lays-Logo.png" alt="Lays" class="h-20">
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Doritos_Logo_%282013%29.png" alt="Doritos" class="h-20">
+      <img src="https://images.seeklogo.com/logo-png/37/1/ruffles-logo-png_seeklogo-373948.png" alt="Ruffles" class="h-20">
+      <img src="https://jcpenney.scene7.com/is/image/JCPenney/DP0702202407304252M?resmode=sharp2&op_sharpen=1&wid=350&hei=350" alt="Takis" class="h-20 rounded-full">
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="bg-yellow-200 text-[#3d2c00] py-12 mt-16 border-t-4 border-yellow-400">
+  <div class="max-w-6xl mx-auto px-6 text-center space-y-4">
+    <p class="text-xl font-bold">Book Your Catering Today!</p>
+    <form class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto text-left">
+      <input type="text" placeholder="Name" class="border border-yellow-500 p-2 rounded">
+      <input type="email" placeholder="Email" class="border border-yellow-500 p-2 rounded">
+      <input type="text" placeholder="Phone" class="border border-yellow-500 p-2 rounded">
+      <input type="text" placeholder="Event Type (e.g. Wedding, Office Party)" class="md:col-span-2 border border-yellow-500 p-2 rounded">
+      <textarea rows="4" placeholder="Additional Details..." class="md:col-span-2 border border-yellow-500 p-2 rounded"></textarea>
+      <button type="submit" class="bg-[#0e1a2b] text-white py-2 px-6 rounded hover:bg-[#1f2f45] col-span-2">Submit</button>
+    </form>
+    <p class="text-sm mt-6">&copy; 2025 Loncherita Mexico Maxico — All rights reserved</p>
+  </div>
+</footer>
 </body>
 </html>
